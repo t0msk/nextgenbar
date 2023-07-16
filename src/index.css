@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-title {
+    @apply font-bold text-2xl text-gray-400 text-center p-4 pt-12;
+}
+
+.section-body {
+    @apply font-normal text-center;
+}
+
+.console-title {
+    @apply text-lg p-4;
+}
+
+.slide {
+    @apply flex justify-center items-center;
+}
